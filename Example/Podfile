@@ -9,3 +9,5 @@ target 'JRRouter_Example' do
     
   end
 end
+
+pod 'JLRoutes'

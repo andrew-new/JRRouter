@@ -1,0 +1,6 @@
+framework module JRRouter {
+  umbrella header "JRRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}
