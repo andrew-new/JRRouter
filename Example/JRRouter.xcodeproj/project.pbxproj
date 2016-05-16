@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0E779163E7AAC8ACB8851DC4 /* Pods_JRRouter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3C7BE4915F28401E0D47BF /* Pods_JRRouter_Tests.framework */; };
+		1B4CDE3F1CE9633800447E30 /* TaobaoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CDE3E1CE9633800447E30 /* TaobaoItemViewController.swift */; };
+		1B84862B1CE5DC5500897857 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B84862A1CE5DC5500897857 /* AppRouter.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -31,6 +33,8 @@
 		0CDE8EE13CC0EB08DF901A5E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		0DB554D6C17279E0C51F9402 /* Pods-JRRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRRouter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JRRouter_Example/Pods-JRRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		14D88227A0AFA6545CB7CEB6 /* JRRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JRRouter.podspec; path = ../JRRouter.podspec; sourceTree = "<group>"; };
+		1B4CDE3E1CE9633800447E30 /* TaobaoItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaobaoItemViewController.swift; sourceTree = "<group>"; };
+		1B84862A1CE5DC5500897857 /* AppRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		2FBC8E9F9329CA23C79E464C /* Pods_JRRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JRRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* JRRouter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JRRouter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,12 +108,14 @@
 		607FACD21AFB9204008FA782 /* Example for JRRouter */ = {
 			isa = PBXGroup;
 			children = (
+				1B84862A1CE5DC5500897857 /* AppRouter.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				1B4CDE3E1CE9633800447E30 /* TaobaoItemViewController.swift */,
 			);
 			name = "Example for JRRouter";
 			path = JRRouter;
@@ -360,7 +366,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				1B4CDE3F1CE9633800447E30 /* TaobaoItemViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				1B84862B1CE5DC5500897857 /* AppRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

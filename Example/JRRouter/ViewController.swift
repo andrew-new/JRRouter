@@ -20,5 +20,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func clickButton(sender: UIButton) {
+        UIApplication.sharedApplication().openURL(NSURL(string: "taobao://items/678")!)
+    }
 }
 
